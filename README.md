@@ -48,7 +48,7 @@ get products by catagory
 
 ## Demo
 - checkout my project-
-[Everest spices](https://6560c102c12a4634d3b45027--stalwart-snickerdoodle-64adf9.netlify.app/)
+[Everest spices](https://everesetclone.netlify.app/)
 
 ![Screenshot](./images/ev1.png)
 this is home page with nav bar and some auto moving pics
