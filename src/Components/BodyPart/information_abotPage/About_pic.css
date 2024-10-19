@@ -8,7 +8,7 @@
     animation: moveLeftToRight 2s linear infinite alternate ;
     color:red;
     scroll-behavior: none;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5;
     width: 90%;
     z-index:10;
