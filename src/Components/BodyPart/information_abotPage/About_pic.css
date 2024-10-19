@@ -10,7 +10,7 @@
     scroll-behavior: none;
     font-size: 14px;
     line-height: 1.5;
-    width: 95%;
+    width: 90%;
     z-index:10;
 }
 @keyframes moveLeftToRight {
