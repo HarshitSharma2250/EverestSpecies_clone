@@ -1,0 +1,112 @@
+.LowerHeader{
+    background-image: url('https://images.unsplash.com/photo-1509359149003-657ef23eaf04?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFzYWxhfGVufDB8fDB8fHww');
+    width: 100%;
+  background-size: cover; 
+  background-position: center; 
+  min-height: 200px; 
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 1rem  3rem 1rem;
+}
+
+.LowerHeader>.LeftBox{
+    padding-top: 2.5rem; 
+    width: 35%;
+    margin-left: 5%;
+    background-color: transparent;
+    color: #fff;
+}
+.LowerHeader>.LeftBox>h1{
+    font-size: 40px;
+font-weight: 900;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.LowerHeader>.LeftBox>hr{
+    width: 15%;
+    margin: 10px 0%;
+    height: 9px;
+    background-color: #fff;
+}
+.LowerHeader>.LeftBox>h3{
+    font-size: 30px;
+  font-weight: 900;
+word-wrap: break-word;
+color: bisque;
+}
+.LowerHeader>.LeftBox>.counting{
+  margin: 2rem 0%;
+  display: flex;
+}
+.counting>.counting_start>span{
+    margin-right: 2%;
+  }
+  .counting>.counting_start{
+    display: flex;
+    flex-direction:column ;
+    text-align: center;
+    width: 40%;
+    margin: 2px;
+  }
+ .LowerHeader>.RightBox{
+    width:40%;
+    height: auto;
+    padding-top: 1rem;
+ } 
+ .LowerHeader>.RightBox>.slide_image{
+    width:370px;
+    height: 370px;
+    border-radius:50%;
+ }
+
+ @media screen and (max-width: 1081px ){
+   
+}
+ @media screen and (max-width:998px ){
+    .LowerHeader>.LeftBox{
+        width:40%;
+        transition: .5s ease-in-out;
+    } 
+    .LowerHeader>.RightBox{
+        margin-right: 2rem;
+     }
+}
+@media screen and (max-width:998px ){
+    .LowerHeader>.LeftBox{
+        width:45%;
+        transition: .5s ease-in-out;
+    } 
+    .LowerHeader>.RightBox{
+        margin-right: 2rem;
+        width:43%;
+     }  
+
+}
+@media screen and (max-width:800px ){
+    .LowerHeader{
+        transition: 1s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 6rem 1rem  1rem 1rem;
+    }
+    .LowerHeader>.LeftBox{
+        width:98%;
+        transition: .5s ease-in-out;
+        margin: auto;
+    } 
+    .LowerHeader>.RightBox{
+        width:100%;
+     } 
+     .LowerHeader>.RightBox>.slide_image{
+        width:100%;
+        height: auto;
+        border-radius: 0%;
+     }
+}
+@media screen and (max-width:350px ){
+  .LowerHeader{
+  
+  padding: 3rem 1rem  3rem 1rem;
+} 
+}

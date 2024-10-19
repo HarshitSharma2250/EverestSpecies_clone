@@ -1,0 +1,133 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+.mixvegitable{
+    padding-top: 8rem;
+    width: 100%;
+    margin: auto;
+
+    padding-left: 8rem;
+}
+.mixvegitable>h1{
+margin-bottom: 3rem;
+}
+.mixvegitable>.micvegoutercover{
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 239, 192, 0.413);
+    padding: 5rem 0%;
+}
+
+.mixvegitable>.micvegoutercover>.mixveginnercover{
+    width: 80%;
+    margin: auto;
+}
+.mixvegitable>.micvegoutercover>.mixveginnercover>img{
+    width:100%;
+}
+.mixvegitable>.micvegoutercover>.mixveginnercover>p{
+    margin: 3rem 0%;
+    font-size: 25px;
+    font-weight: 550;
+}
+.mixvegitable>.micvegoutercover>.mixveginnercover>hr{
+    opacity: .3;
+    margin-bottom: 3rem;
+}
+.mixvegitable>.micvegoutercover>.mixveginnercover>.listitem{
+    margin-bottom: 2rem;
+}
+
+.mixvegitable>.micvegoutercover>.mixveginnercover>.listitem>p{
+    font-size:30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mixvegitable>.micvegoutercover>.mixveginnercover>.listitem>ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-top: 2rem;
+}
+.mixvegitable>.micvegoutercover>.mixveginnercover>.listitem>ul>li{
+    margin: .5rem 0%;
+}
+.mixvegitable>.micvegoutercover>.mixveginnercover>.listitem>ul>li>.fa-check{
+    margin-right: 30px;
+    color: red;
+    font-weight: 900;
+}
+.mixvegitable>.micvegoutercover>.mixveginnercover>.instructions>p{
+    margin: 3rem 0%;
+    font-size: 25px;
+    font-weight: 550;
+}
+.mixvegitable>.micvegoutercover>.mixveginnercover>.instructions>ul{
+    list-style-type: none;
+}
+.mixvegitable>.micvegoutercover>.mixveginnercover>.instructions>ul>li{
+    margin: 1.8rem;
+    display: flex;
+    align-items: center;
+   
+}
+.mixvegitable>.micvegoutercover>.mixveginnercover>.instructions>ul>li>span{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+.mixvegitable>.micvegoutercover>.mixveginnercover>.instructions>ul>li>p{
+    width: 100%;  
+  }
+  
+  
+  
+  @media screen and (max-width:1029px) {
+    .mixvegitable>.micvegoutercover{
+          width:95%;   
+      }
+      .mixvegitable{
+          padding-left: 3rem;
+      }
+  }
+  @media screen and (max-width:912px) {
+    .mixvegitable>.micvegoutercover>.mixveginnercover{
+          width: 95%;
+          margin: auto;
+      }
+  }
+  @media screen and (max-width:765px) {
+      .mixvegitable{
+          padding-left: .2rem;
+      }
+      .mixvegitable>.micvegoutercover{
+          width:100%;   
+      }
+      .mixvegitable>.micvegoutercover>.mixveginnercover>.listitem>ul{
+          display: block;
+      }
+      .mixvegitable>.micvegoutercover>.mixveginnercover>.listitem>ul>li{
+          margin: .9rem 0%;
+          width:100%;
+      }
+  
+      .mixvegitable>.micvegoutercover>.mixveginnercover>.instructions>ul>li{
+          margin: 1.8rem;
+          margin-left:5px;
+   
+       
+      }
+  
+      .mixvegitable>.micvegoutercover>.mixveginnercover>.instructions>ul>li>span{
+          width: 30px;
+          height: 30px;
+          margin-right: 20px;
+    
+      }
+  }

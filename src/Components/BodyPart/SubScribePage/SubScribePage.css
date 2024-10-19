@@ -1,0 +1,109 @@
+.BackGroundContainer{
+    background-image: url('https://media.gettyimages.com/id/638902438/photo/spices-on-black-background.jpg?s=612x612&w=0&k=20&c=xHKd_gyVJy6k_lH448t_7Oke4zs-Y5ORA4011nOdtcA=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+   background-color: rgb(236, 160, 160);
+   color: #fff;
+   width: 100%;
+}
+.BackGroundContainer>h1{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 35px;
+    font-family: cursive;
+    transition: .5s ease-in-out;
+}
+.BackGroundContainer>.email{
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 470px;
+    background-color: #ffffff53;
+    transition: .5s ease-in-out;
+}
+.BackGroundContainer>.email>input{
+    height: 50px;
+    width: 450px;
+    font-size: large;
+    border: none;
+    outline: none;
+    background-color: #ffffff34;
+    padding-left: 30px;
+    color: #fff;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ transition: .5s ease-in-out;
+}
+.BackGroundContainer>.email>input::placeholder{
+    color: #fff;
+}
+.BackGroundContainer>p{
+   text-align: center;
+   margin-top: 2rem;
+   font-size: 18px;
+   font-family: monospace;
+}
+
+
+.email>button{
+    height: 50px;  
+    text-align: center;
+    width: 20px;
+    border: none;
+    background: #ffffff53;
+    font-size: larger;
+    cursor: pointer;
+    color: #fff;
+    
+}
+@media screen and (max-width:523px) {
+    .BackGroundContainer>h1{
+        font-size: 30px;
+    }
+    .BackGroundContainer>.email{
+        width: 430px;
+    }
+    .BackGroundContainer>.email>input{
+        width: 408px;
+    }
+}
+@media screen and (max-width:446px){
+    .BackGroundContainer>h1{
+        font-size: 25px;
+    } 
+
+    .BackGroundContainer>.email{
+        width: 400px;
+    }
+    .BackGroundContainer>.email>input{
+        width: 377px;
+    }
+}
+@media screen and (max-width:410px){
+    .BackGroundContainer{
+        height:12rem;
+
+    }
+    .BackGroundContainer>h1{
+        font-size: 15px;
+    } 
+    .BackGroundContainer>.email{
+        width: 300px;
+        height: 3vh;
+        background-color: transparent;
+    }  
+    .BackGroundContainer>.email>input{
+        width: 257px;
+        height:3rem;
+    }
+    .email>button{
+        height: 3rem;
+    }
+    .BackGroundContainer>h1{   
+        padding-top: 2rem;
+    }
+    .BackGroundContainer>p{
+        margin-top: 2.7rem;
+        font-size: 15px;  
+     }
+}

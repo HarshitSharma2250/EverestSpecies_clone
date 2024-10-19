@@ -1,0 +1,88 @@
+.mahak_container{
+    padding-top: 9rem;
+    width: 100%;
+}
+.mahak_container>h1{
+    margin: auto;
+    width: 95%;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 8px;
+}
+hr{
+    width: 390px;
+    margin-left: 25px;
+}
+.mahak_container>.outeraboutpage{
+    margin-top: 4rem;
+}
+.mahak_container>.outeraboutpage>.img_content_about{
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    margin: auto;
+}
+.mahak_container>.outeraboutpage>.img_content_about> img{
+width:45%;
+height: 17rem;
+}
+.mahak_container>.outeraboutpage>.img_content_about>p{
+    width: 45%;
+    line-height: 1.9;
+
+}
+.mahak_container>.outeraboutpage>.img_content_about>p>h1{
+    font-size:2rem;
+    line-height: 1.3;
+    font-weight: 900;
+}
+.mahak_container>.outeraboutpage>.inneraboutpage{
+    width: 90%;
+    background-color: aliceblue;
+    margin: 3rem auto;
+}
+.mahak_container>.outeraboutpage>.inneraboutpage>.ourspicecollection{
+    padding-top: 2rem;
+    width: 90%;
+    padding-left: 1rem;
+}
+.mahak_container>.outeraboutpage>.inneraboutpage>.ourspicecollection>h2{
+    margin: 1rem 0%;
+    color: rgb(174, 255, 0);
+}
+.mahak_container>.outeraboutpage>.inneraboutpage>.ourspicecollection>p{
+    line-height: 1.6;
+}
+
+@media screen and (max-width:650px) {
+    
+    .mahak_container>.outeraboutpage>.img_content_about{
+        flex-direction: column
+    }
+    .mahak_container>.outeraboutpage>.img_content_about> img{
+        width:100%;
+        }
+        .mahak_container>.outeraboutpage>.img_content_about>p{
+            width: 100%;
+            line-height: 1.9;
+        margin-top: 1rem;
+        }
+        .mahak_container>.outeraboutpage>.img_content_about>p>h1{
+            margin:1rem 0%;
+        }
+        hr{
+            width: 390px;
+            margin-left: 15px;
+        }
+}
+@media screen and (max-width:425px) {
+    .mahak_container>h1{
+       margin-left: 1rem;
+        width:90%;
+     font-size: 20px;     
+    }
+    hr{
+        width: 250px;
+        margin-left:10px;
+    }
+}

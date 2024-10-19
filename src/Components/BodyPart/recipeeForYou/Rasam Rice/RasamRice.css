@@ -1,0 +1,135 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+.rasamrice{
+    padding-top: 8rem;
+    width: 100%;
+    margin: auto;
+
+    padding-left: 8rem;
+}
+.rasamrice>h1{
+margin-bottom: 3rem;
+}
+.rasamrice>.rasamouter{
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 239, 192, 0.413);
+    padding: 5rem 0%;
+}
+
+.rasamrice>.rasamouter>.rasaminner{
+    width: 80%;
+    margin: auto;
+}
+.rasamrice>.rasamouter>.rasaminner>img{
+    width:100%;
+}
+
+.rasamrice>.rasamouter>.rasaminner>p{
+    margin: 3rem 0%;
+    font-size: 25px;
+    font-weight: 550;
+}
+.rasamrice>.rasamouter>.rasaminner>hr{
+    opacity: .3;
+    margin-bottom: 3rem;
+}
+.rasamrice>.rasamouter>.rasaminner>.listitem{
+    margin-bottom: 2rem;
+}
+
+.rasamrice>.rasamouter>.rasaminner>.listitem>p{
+    font-size:30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rasamrice>.rasamouter>.rasaminner>.listitem>ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-top: 2rem;
+}
+.rasamrice>.rasamouter>.rasaminner>.listitem>ul>li{
+    margin: .5rem 0%;
+}
+.rasamrice>.rasamouter>.rasaminner>.listitem>ul>li>.fa-check{
+    margin-right: 30px;
+    color: red;
+    font-weight: 900;
+}
+.rasamrice>.rasamouter>.rasaminner>.instructions>p{
+    margin: 3rem 0%;
+    font-size: 25px;
+    font-weight: 550;
+}
+.rasamrice>.rasamouter>.rasaminner>.instructions>ul{
+    list-style-type: none;
+}
+.rasamrice>.rasamouter>.rasaminner>.instructions>ul>li{
+    margin: 1.8rem;
+    display: flex;
+    align-items: center;
+   
+}
+.rasamrice>.rasamouter>.rasaminner>.instructions>ul>li>span{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+
+.rasamrice>.rasamouter>.rasaminner>.instructions>ul>li>p{
+    width: 100%;  
+  }
+  
+  
+  
+  @media screen and (max-width:1029px) {
+    .rasamrice>.rasamouter{
+          width:95%;   
+      }
+      .rasamrice{
+          padding-left: 3rem;
+      }
+  }
+  @media screen and (max-width:912px) {
+    .rasamrice>.rasamouter>.rasaminner{
+          width: 95%;
+          margin: auto;
+      }
+  }
+  @media screen and (max-width:765px) {
+      .mixvegitable{
+          padding-left: .2rem;
+      }
+      .rasamrice>.rasamouter{
+          width:100%;   
+      }
+      .rasamrice>.rasamouter>.rasaminner>.listitem>ul{
+          display: block;
+      }
+      .rasamrice>.rasamouter>.rasaminner>.listitem>ul>li{
+          margin: .9rem 0%;
+          width:100%;
+      }
+  
+      .rasamrice>.rasamouter>.rasaminner>.instructions>ul>li{
+          margin: 1.8rem;
+          margin-left:5px;
+   
+       
+      }
+  
+      .rasamrice>.rasamouter>.rasaminner>.instructions>ul>lispan{
+          width: 30px;
+          height: 30px;
+          margin-right: 20px;
+    
+      }
+  }

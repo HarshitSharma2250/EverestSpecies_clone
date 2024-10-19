@@ -1,0 +1,35 @@
+.recipeeForYou{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap; 
+    }
+    .recipes>.recipeeForYou>a{
+      margin: 0px 1rem;
+      height: auto;
+    }
+    
+    .recipes>.recipeeForYou>a> img{
+      width: 300px ;
+      height: 300px;
+      display: inline-block; 
+      margin-right: 10px; 
+      transition: .5s ease-in-out;
+     
+    }
+    
+    a:hover img{
+      transform: scale(1.03);
+    }
+    .recipes>.recipeeForYou>a>h1{
+        box-sizing: border-box;
+      text-align: center;
+      margin: 2rem 0px 3rem 0px ;
+      font-size: 33px;
+      transition:  .5s ease-out;
+      color: red;
+    }
+    .recipes>.recipeeForYou>a>h1:hover{
+      background-color: yellow;
+    }
+    

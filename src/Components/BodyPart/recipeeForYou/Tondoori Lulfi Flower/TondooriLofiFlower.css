@@ -1,0 +1,132 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+.tondoorilifi{
+    padding-top: 8rem;
+    width: 100%;
+    margin: auto;
+
+    padding-left: 8rem;
+}
+.tondoorilifi>h1{
+margin-bottom: 3rem;
+}
+.tondoorilifi>.tondoorilifiouter{
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 239, 192, 0.413);
+    padding: 5rem 0%;
+}
+
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner{
+    width: 80%;
+    margin: auto;
+}
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>img{
+    width:100%;
+}
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>p{
+    margin: 3rem 0%;
+    font-size: 25px;
+    font-weight: 550;
+}
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>hr{
+    opacity: .3;
+    margin-bottom: 3rem;
+}
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.listitem{
+    margin-bottom: 2rem;
+}
+
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.listitem>p{
+    font-size:30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.listitem>ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-top: 2rem;
+}
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.listitem>ul>li{
+    margin: .5rem 0%;
+}
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.listitem>ul>li>.fa-check{
+    margin-right: 30px;
+    color: red;
+    font-weight: 900;
+}
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.instructions>p{
+    margin: 3rem 0%;
+    font-size: 25px;
+    font-weight: 550;
+}
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.instructions>ul{
+    list-style-type: none;
+}
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.instructions>ul>li{
+    margin: 1.8rem;
+    display: flex;
+    align-items: center;
+   
+}
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.instructions>ul>li>span{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+.tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.instructions>ul>li>p{
+    width: 100%;  
+  }
+  
+  
+  
+  @media screen and (max-width:1029px) {
+    .tondoorilifi>.tondoorilifiouter{
+          width:95%;   
+      }
+      .tondoorilifi{
+          padding-left: 3rem;
+      }
+  }
+  @media screen and (max-width:912px) {
+    .tondoorilifi>.tondoorilifiouter>.tondoorilifiinner{
+          width: 95%;
+          margin: auto;
+      }
+  }
+  @media screen and (max-width:765px) {
+      .tondoorilifi{
+          padding-left: .2rem;
+      }
+      .tondoorilifi>.tondoorilifiouter{
+          width:100%;   
+      }
+      .tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.listitem>ul{
+          display: block;
+      }
+      .tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.listitem>ul>li{
+          margin: .9rem 0%;
+          width:100%;
+      }
+  
+      .tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.instructions>ul>li{
+          margin: 1.8rem;
+          margin-left:5px;
+   
+       
+      }
+  
+      .tondoorilifi>.tondoorilifiouter>.tondoorilifiinner>.instructions>ul>li>span{
+          width: 30px;
+          height: 30px;
+          margin-right: 20px;
+    
+      }
+  }

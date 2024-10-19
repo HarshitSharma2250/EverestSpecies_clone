@@ -1,0 +1,110 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+.Navbar{
+    height:5rem;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+}
+.Navbar>.navbarinner{
+    line-height:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    margin: auto;
+}
+.Navbar>.navbarinner>.logo{
+    transform: translate(0px ,12px);
+}
+.Navbar>.navbarinner>.linkpages{
+    padding-top:15px;
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+.Navbar>.navbarinner>.linkpages>a{
+    color: #fff;
+    border-bottom: 1px transparent;
+    transition: .5s ease-in-out;
+}
+.Navbar>.navbarinner>.linkpages>a:hover{
+    border-bottom: 1px solid red;  
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+  @media screen and (max-width: 1081px ){
+    .checkbtn{
+        display: block;
+    }
+
+    .Navbar>.navbarinner>.logo{
+        transform: translate(0px ,0px);
+    }
+
+    .Navbar>.navbarinner>.linkpages{
+        flex-direction: column;
+        justify-content: space-between;
+      position: fixed;
+        width:15rem;
+        height:17rem;
+        background-color: black;
+        top: 3px;
+        right: -100%;
+        transition: all .5s;  
+        padding-left: 15px;
+        font-size: 20px;
+        padding-bottom: 5px;
+        z-index:999;
+    }
+    .Navbar>.navbarinner>.linkpages>a:hover{
+        border-bottom:none;  
+        transform: scale(1.02);
+        color: red;
+    }
+
+
+#check:checked ~ .linkpages{
+        right: 0;
+ }
+ .Navbar>.navbarinner>.linkpages>.checkbtn{
+ right: 3.5px;
+ top: 1px;
+    position: absolute;
+ }
+  }
+  @media screen and (max-width: 350px ){
+.Navbar{
+    height:4rem;
+}
+
+.Navbar>.navbarinner>.logo>img{
+    width: 100px;
+}
+.checkbtn{
+    font-size: 25px;
+  }
+  .Navbar>.navbarinner>.linkpages{
+    width:12rem;
+    height:12rem;
+
+}
+.Navbar>.navbarinner{
+    line-height:20px;
+    height: 4rem;
+
+}
+
+  }

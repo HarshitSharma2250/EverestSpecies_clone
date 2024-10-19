@@ -1,0 +1,113 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+.headingBhindi{
+    padding-top: 8rem;
+    width: 100%;
+    margin: auto;
+border: 2px solid red;
+    /* padding-left: 8rem; */
+}
+.headingBhindi>div{
+    margin: auto;
+}
+.headingBhindi>h1{
+margin-bottom: 3rem;
+text-align: center;
+}
+.headingBhindi>.outercover{
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 239, 192, 0.413);
+    padding: 5rem 0%;
+}
+
+.headingBhindi>.outercover>.innercover{
+    width: 80%;
+    margin: auto;
+}
+.headingBhindi>.outercover>.innercover>img{
+    width:100%;
+}
+.headingBhindi>.outercover>.innercover>p{
+    margin: 3rem 0%;
+    font-size: 25px;
+    font-weight: 550;
+}
+.headingBhindi>.outercover>.innercover>hr{
+    opacity: .3;
+    margin-bottom: 3rem;
+}
+.headingBhindi>.outercover>.innercover>.listitem{
+    margin-bottom: 2rem;
+}
+
+.headingBhindi>.outercover>.innercover>.listitem>p{
+    font-size:30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headingBhindi>.outercover>.innercover>.listitem>ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-top: 2rem;
+}
+.headingBhindi>.outercover>.innercover>.listitem>ul>li{
+    margin: .5rem 0%;
+}
+.headingBhindi>.outercover>.innercover>.listitem>ul>li>.fa-check{
+    margin-right: 30px;
+    color: red;
+    font-weight: 900;
+}
+.headingBhindi>.outercover>.innercover>.instructions>p{
+    margin: 3rem 0%;
+    font-size: 25px;
+    font-weight: 550;
+}
+.headingBhindi>.outercover>.innercover>.instructions>ul{
+    list-style-type: none;
+}
+.headingBhindi>.outercover>.innercover>.instructions>ul>li{
+    margin: 1.8rem;
+    display: flex;
+    align-items: center;
+   
+}
+.headingBhindi>.outercover>.innercover>.instructions>ul>li>span{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.headingBhindi>.outercover>.innercover>.instructions>ul>li>p{
+    width:95%;
+}
+
+@media screen and (max-width:884px) {
+    .headingBhindi>.outercover>.innercover>.listitem>ul{
+        display: block;
+    } 
+    .headingBhindi>.outercover>.innercover>.listitem>ul>li{
+        margin: .9rem 0%;
+    }
+    .headingBhindi>.outercover>.innercover>.instructions{
+        width: 100%;
+    }
+    .headingBhindi>.outercover{
+        width:96%;
+        margin: auto;
+    }
+    .headingBhindi>.outercover>.innercover{
+        width: 90%;
+    }
+    .headingBhindi>.outercover>.innercover>.instructions>ul>li{
+        margin-left: 1rem;
+    }
+    .headingBhindi{
+        padding-left: 0rem;
+    }
+}

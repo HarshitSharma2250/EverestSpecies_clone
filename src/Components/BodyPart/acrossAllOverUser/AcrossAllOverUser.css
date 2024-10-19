@@ -1,0 +1,29 @@
+.soldinginf{
+    margin: 2rem 0%;
+    width: 100%;
+}
+.soldinginf>h1{
+   margin-left: 3%;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+.containertinfo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.containertinfo>div{
+    width: 33.3%;
+    border: 0.1px solid black;
+    text-align: center;
+    padding: 3rem 2%;
+    border-top: none;
+    border-left: none;
+}
+.containertinfo>div>h2{
+    color: red;
+    margin-bottom: 10px;
+}

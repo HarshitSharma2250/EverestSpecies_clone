@@ -1,0 +1,83 @@
+.loginContact{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    
+}
+loginContact>.mapLocation{
+    position: relative;
+    z-index: 1;
+}
+
+.loginContact>.Form_Info{
+    width: 95%;
+    margin:auto;
+    height:auto;
+    background-color: #fff;
+}
+
+.loginContact>.Form_Info>form{
+  width:100%;
+}
+.loginContact>.Form_Info>form>h5{
+    margin: 1rem 0%;
+    font-size: 18px;
+}
+.loginContact>.Form_Info>form>.inputfields{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px 15px;
+}
+.loginContact>.Form_Info>form>.inputfields>input{
+    height: 9vh;
+    padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.loginContact>.Form_Info>form>input{
+    margin: 2rem 0%;
+    padding: 12px 70px;
+    margin-left: 1rem;
+    color: #fff;
+    background: linear-gradient(to right, black 50%, red 50%);
+    transition: background 1s ease-out;
+    background-size: 200% 100%; 
+}
+.loginContact>.Form_Info>form>input:hover {
+    background-position: 100%;
+  }
+
+
+
+.loginContact>.rightsideboxinf{
+    background-color: black;
+    color: #fff;
+    width: 95%;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+}
+.loginContact>.rightsideboxinf>h3{
+padding-top: 2rem;
+margin-bottom: 2rem;
+}
+.loginContact>.rightsideboxinf>.address{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.loginContact>.rightsideboxinf>.address>div>p{
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.loginContact>.rightsideboxinf>.address>div{
+    margin-left: 20px;
+}
+@media screen and (max-width:500px) {
+    
+    .loginContact>.Form_Info>form>.inputfields{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px 15px;
+    }   
+}

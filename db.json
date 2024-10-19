@@ -1,0 +1,269 @@
+{
+  "Asafoetida": [
+    {
+      "id": 1,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/hingraj-front-1.png.webp",
+      "title":"Asafoetida",
+      "name": "hing raj power"
+    },
+    {
+      "id": 2,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/hing-powder-front-1.png.webp",
+      "title":"Asafoetida",
+      "name": "hing power(yellow)"
+    }
+  ],
+  "BlendedSpices": [
+    {
+      "id": 1,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/garam-masala.png.webp",
+      "title":"BlendedSpices",
+      "name": "garam masala"
+    },
+    {
+      "id": 2,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/sabji-masala.png.webp",
+      "title":"BlendedSpices",
+      "name": "sabji masala"
+    },
+    {
+      "id": 3,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/royal-garam-masal-1.png.webp",
+      "title":"BlendedSpices",
+      "name": "royal garam masala"
+    },
+    {
+      "id": 4,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/front-1-2.png.webp",
+      "title":"BlendedSpices",
+      "name": "sahi garam masala"
+    },
+    {
+      "id": 5,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/chhole-masala.png.webp",
+      "title":"BlendedSpices",
+      "name": "chole masala"
+    },
+    {
+      "id": 6,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/pav-bhaji-masala.png.webp",
+      "title":"BlendedSpices",
+      "name": "pav bhaji masala"
+    },
+    {
+      "id": 7,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/front-3.png.webp",
+      "title":"BlendedSpices",
+      "name": "shahi biryani masala"
+    },
+    {
+      "id": 8,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/jiralu-masala-front.png.webp",
+      "title":"BlendedSpices",
+      "name": "jiralu masala"
+    },
+    {
+      "id": 9,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/ambhar-masala.png.webp",
+      "title":"BlendedSpices",
+      "name": "sambhar masala"
+    },
+    {
+      "id": 10,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/front-4.png.webp",
+      "title":"BlendedSpices",
+      "name": "pani puri masala"
+    }
+  ],
+  "ExoticRange": [
+    {
+      "id": 1,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/kesari-milk-masal.png.webp",
+
+      "title":"ExoticRange",
+      "name": "keshari milk masala"
+    },
+    {
+      "id": 2,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/saffron-4.png.webp",
+
+      "title":"ExoticRangsaffron",
+      "name": "garam masala"
+    }
+  ],
+  "Paste": [
+    {
+      "id": 1,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/11/Ginger-Garlic-Paste-02-1.png.webp",
+
+      "title":"ExoticRange",
+      "name": "ginger garlic paste"
+    }
+  ],
+  "PureSpices": [
+    {
+      "id": 1,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/front-2-2.png.webp",
+
+      "title":"PureSpices",
+      "name": "kashmirilal chilli power"
+    },
+    {
+      "id": 2,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/front-11.png.webp",
+
+      "title":"PureSpices",
+      "name": "black papper power"
+    },
+    {
+      "id": 3,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/dry-mango-front.png.webp",
+
+      "title":"PureSpices",
+      "name": "dry mango power"
+    },
+    {
+      "id": 4,
+      "image": "https://www.everestfoods.com/products/dry-ginger-powder/",
+
+      "title":"PureSpices",
+      "name": "dry ginger power"
+    },
+    {
+      "id": 5,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/white-pepper-front.png.webp",
+
+      "title":"PureSpices",
+      "name": "white paper power"
+    }
+  ] ,
+
+
+  "products": [
+    {
+      "id": 1,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/hingraj-front-1.png.webp",
+      "title":"Asafoetida",
+      "name": "hing raj power"
+    },
+    {
+      "id": 2,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/hing-powder-front-1.png.webp",
+      "title":"Asafoetida",
+      "name": "hing power(yellow)"
+    },
+    {
+      "id": 3,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/garam-masala.png.webp",
+      "title":"BlendedSpices",
+      "name": "garam masala"
+    },
+    {
+      "id": 4,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/sabji-masala.png.webp",
+      "title":"BlendedSpices",
+      "name": "sabji masala"
+    },
+    {
+      "id": 5,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/royal-garam-masal-1.png.webp",
+      "title":"BlendedSpices",
+      "name": "royal garam masala"
+    },
+    {
+      "id": 6,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/front-1-2.png.webp",
+      "title":"BlendedSpices",
+      "name": "sahi garam masala"
+    },
+    {
+      "id": 7,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/chhole-masala.png.webp",
+      "title":"BlendedSpices",
+      "name": "chole masala"
+    },
+    {
+      "id": 8,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/pav-bhaji-masala.png.webp",
+      "title":"BlendedSpices",
+      "name": "pav bhaji masala"
+    },
+    {
+      "id": 9,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/front-3.png.webp",
+      "title":"BlendedSpices",
+      "name": "shahi biryani masala"
+    },
+    {
+      "id": 10,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/jiralu-masala-front.png.webp",
+      "title":"BlendedSpices",
+      "name": "jiralu masala"
+    },
+    {
+      "id": 11,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/ambhar-masala.png.webp",
+      "title":"BlendedSpices",
+      "name": "sambhar masala"
+    },
+    {
+      "id": 12,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/front-4.png.webp",
+      "title":"BlendedSpices",
+      "name": "pani puri masala"
+    }, {
+      "id": 13,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/kesari-milk-masal.png.webp",
+
+      "title":"ExoticRange",
+      "name": "keshari milk masala"
+    },
+    {
+      "id": 14,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/saffron-4.png.webp",
+
+      "title":"ExoticRangsaffron",
+      "name": "garam masala"
+    }, {
+      "id": 15,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/11/Ginger-Garlic-Paste-02-1.png.webp",
+
+      "title":"ExoticRange",
+      "name": "ginger garlic paste"
+    }, {
+      "id": 16,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/front-2-2.png.webp",
+
+      "title":"PureSpices",
+      "name": "kashmirilal chilli power"
+    },
+    {
+      "id": 17,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/front-11.png.webp",
+
+      "title":"PureSpices",
+      "name": "black papper power"
+    },
+    {
+      "id": 18,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/dry-mango-front.png.webp",
+
+      "title":"PureSpices",
+      "name": "dry mango power"
+    },
+    {
+      "id": 19,
+      "image": "https://www.everestfoods.com/products/dry-ginger-powder/",
+
+      "title":"PureSpices",
+      "name": "dry ginger power"
+    },
+    {
+      "id": 20,
+      "image": "https://www.everestfoods.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/white-pepper-front.png.webp",
+
+      "title":"PureSpices",
+      "name": "white paper power"
+    }
+  ]
+}

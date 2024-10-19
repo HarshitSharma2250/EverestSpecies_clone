@@ -1,0 +1,30 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+.footerPage{
+    background-color: black;
+    color: #fff;
+}
+
+.Footerboxes{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 5rem;
+padding-bottom: 2rem;
+}
+.Footerboxes>.box1>h1{
+    margin-bottom: 20px;
+}
+.Footerboxes > .box1 >address {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.Footerboxes>.box1>.lower{
+    margin-top: 2rem;
+    font-size: 12px;
+}
+.Footerboxes>.box2>a{
+margin: 20px;
+font-size: 30px;
+}

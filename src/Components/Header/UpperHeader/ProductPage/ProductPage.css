@@ -1,0 +1,120 @@
+.productpage{
+    padding-top: 7rem;
+    width: 97%;
+    margin: auto;
+}
+.productpage>.imageclick{
+display: flex;
+justify-content: space-between;
+width: 95%;
+margin: auto;
+}
+.productpage>.imageclick>.productfilter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:99%;
+    margin: auto;
+}
+.productpage>.imageclick>.productfilter>.clickimgproduct{
+    width: 150px;
+    transition: .5s ease-in-out;
+    opacity: .5;
+}
+.productpage>.imageclick>.productfilter:hover .clickimgproduct{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.productpage>.imageclick>.productfilter>.nameOfProducts{
+    margin: 2rem 0%;
+    width: 150px;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: linear-gradient(to right, #fff 50% , red 50%);
+transition: .5s ease-in-out;
+background-size: 200% 100%;
+
+}
+.productpage>.imageclick>.productfilter:hover .nameOfProducts{
+    color: #fff;
+    background-position: 100%;
+}
+.productpage>.productheadingonui{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-weight: 800;
+}
+
+.productpage>.productonUI{
+    margin: auto;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 94%;
+}
+.productpage>.productonUI>.productonUIinner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productpage>.productonUI>.productonUIinner>.imageofproducts{
+   width: 130px;
+   height: 200px;
+   transition: .5s ease-in-out;
+}
+.productpage>.productonUI>.productonUIinner:hover .imageofproducts{
+    transform: scale(1.1);
+}
+.productpage>.productonUI>.productonUIinner>.productTitle{
+  margin:20px 0% 25px 0%;  
+}
+.productpage>.productonUI>.productonUIinner>.productNAME{
+    margin-bottom: 3rem;
+    font-size: 25px;
+    background: linear-gradient(to right, #fff 50% , red 50%);
+transition: .5s ease-in-out;
+background-size: 200% 100%;
+width: 250px;
+height: 10vh;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productpage>.productonUI>.productonUIinner:hover .productNAME{
+    background-position: 100%;
+}
+
+@media screen and (max-width:1079px) {
+    .productpage>.imageclick{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 95%;
+        margin: auto;
+        } 
+        .productpage>.imageclick>.productfilter>.clickimgproduct{
+            width: 200px;
+            transition: .5s ease-in-out;
+            opacity: .5;
+        } 
+}
+@media screen and (max-width:826px) {
+    .productpage>.productonUI{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+}
+@media screen and (max-width:585px) {
+    .productpage>.imageclick{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 95%;
+        margin: auto;
+        } 
+    .productpage>.productonUI{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+}
